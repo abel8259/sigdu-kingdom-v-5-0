@@ -15,4 +15,4 @@ Warning:
 Conteudo antigo: https://github.com/abel8259/sigdu-kingdom-v-5-0/search?l=hack 
 
 Politicas de privacidade: 
-- 
+- termos : https://raw.githubusercontent.com/abel8259/sigdu-kingdom-v-5-0/main/readmes/termos.md
