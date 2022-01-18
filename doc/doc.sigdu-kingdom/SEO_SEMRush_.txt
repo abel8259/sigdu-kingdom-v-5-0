@@ -1,0 +1,8 @@
+visitas diretas no site:
+quantidade de páginas acessadas: 
+taxa de rejeição:
+total de dominios de referencia:
+
+tamanho do conteudo:(regra dos +45%)
+
+O.B.S.:taxa de rejeição sempre é maior que >49%                    

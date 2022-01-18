@@ -1,0 +1,137 @@
+
+
+div.caixa_01{
+border: 2px solid #000;
+width: 100%;
+}
+
+div.caixa_02{
+border: 2px solid #000;
+width: 100%;
+}
+
+
+.button {
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.letra2{
+	text-align: center;
+}
+
+.letra3{
+    font-weight: bold;
+}
+
+.letra4{
+    font-size:24px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+ 
+  padding: 10px;
+}
+.grid-item {
+  background-color: WHITE;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #000;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color:white ;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-row: 1 /6;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto ;
+  grid-gap: 10px;
+  background-color: #000;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / 9;
+}
+
+
+.button2 {
+border: double #000 4px;
+  width: 5%;}
+
+
+.pagination {
+  display: inline-block;
+  margin-left:39%;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #000;
+}
+
+.pagination a.active {
+  background-color: #000;
+  color: white;
+  border: 1px solid #000;
+}
+
+a.pg1:link, a.pg1:visited {
+  background-color: #000;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #000;
+}
+
+a.pg1:hover, a.pg1:active {
+  background-color: #e0e0d1;
+  color: #000;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+

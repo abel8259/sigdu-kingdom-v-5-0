@@ -1,0 +1,68 @@
+[
+
+	{
+        "nome":"the tail of the ninja Woe",
+        "atk":200,
+        "def":15,
+        "gold":20800,
+        "color":"white",
+        "shop":"arsenal oculto",
+        "pacote":"ALT-01",
+        "file_name":"ITEM241-thetailoftheninjaWoe.png",
+	},
+
+    {
+        "nome":"An dragon knife suport item",
+        "atk":20,
+        "def":200,
+        "gold":100,
+        "color":"white",
+        "shop":"arsenal oculto",
+        "pacote":"ALT-01",
+        "file_name":"ITEM242-Andragonknifesupportitem.png",
+	},
+
+	{
+        "nome":"ninja Gedn & the war battle",
+        "atk":30,
+        "def":50,
+        "gold":15000,
+        "color":"white",
+        "shop":"arsenal oculto",
+        "pacote":"ALT-01",
+        "file_name":"ITEM244--ninjaGedn&TheWarBattle.png",
+	},
+
+	{
+        "nome":"Samurai awakens",
+        "atk":400,
+        "def":240,
+        "gold":40820,
+        "color":"green",
+        "shop":"arsenal oculto",
+        "pacote":"ALT-01",
+        "file_name":"ITEM245-samuraiawakens.png",
+	},
+
+	{
+        "nome":"Waut",
+        "atk":420,
+        "def":100,
+        "gold":38200,
+        "color":"green",
+        "shop":"arsenal oculto",
+        "pacote":"ALT-01",
+        "file_name":"ITEM246-waut.png",
+	},
+
+	{
+        "nome":"Light Elastic Howler Frozen",
+        "atk":609,
+        "def":233,
+        "gold":60000,
+        "color":"green",
+        "shop":"arsenal oculto",
+        "pacote":"ALT-01",
+        "file_name":"ITEM247-LightElasticHowlerFrozen.png",
+	},
+]

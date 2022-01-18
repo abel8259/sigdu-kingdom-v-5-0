@@ -1,0 +1,1 @@
+- <b> sobre: </b> Sao códigos antigos do xampp ainda desenvolvido com milleniums. Se dúvida verifique o codigo por si mesmo e se nao sabe o que é hacker nao julgue, pedimos o minimo de bom senso para utilizaçao dessa bilioteca.               

@@ -1,0 +1,427 @@
+/*-ALGORITMO:-KEYPAGE-23------------> 
+/*-PARA:-SIGDU-KINGDOM-------------->   
+/*-COMENTÁRIOS:-PADRÕES-DE-PROJETO-->
+/*-LANG:-CSS------------------------>
+/*-DESIGNER-IDEA:-WH40K------------->
+/*-ADAPTAÇÃO:-ABEL-BARBOSA---------->  
+
+
+ 
+/*-INICIO-*/
+
+  /*-FORMATAÇÃO-BÁSICA-*/
+    *{
+
+       margin:0;
+       padding: 0;  
+       box-sizing: border-box;
+    }
+     
+    html,body{
+      height: 100%;
+      
+    }
+    div.clear{
+      clear:both; 
+    } 
+    .letra2{
+  text-align: center;
+   
+}
+
+.letra3{
+    font-weight: bold;
+}
+  /***/
+
+  /*MENU-TOP*/
+    html > body > div.menu-top{
+      background-color:#333333;
+      height: 10%;
+      width: 100%;
+      display:block;  
+    }
+
+    /*MENU-TOP-IND-WRAPPER*/
+      html > body > div.menu-top > div.menu-top-IND-wrapper{
+       
+        height: 100%;
+        width: 12%; 
+        float:left;
+      }
+    
+      /*MENU-TOP-IND-WRAPPER-PERFIL*/
+        html > body > div.menu-top > div.menu-top-IND-wrapper > div.menu-top-IND-wrapperPERFIL{
+          cursor: pointer;
+          height: 100%;
+          width: 50%; 
+          float: left;
+        }
+      /***/
+      /*MENU-TOP-IND-WRAPPER-PERFIL*/
+        html > body > div.menu-top > div.menu-top-IND-wrapper > div.menu-top-IND-wrapperMAODIR {
+          cursor:pointer;
+          height: 100%;
+          width: 50%;
+          float: left;   
+        }
+      /***/
+
+      /*IMG.PERFIL*/
+          img.elmo{
+            margin: 2.5%;
+            width: 70%;
+            height: auto ;
+            left: 10%;
+            position: relative;
+          }
+      /***/
+      /*IMG.MAODIR*/
+          img.mao-dir {
+            margin: 2.5%;
+            width: 73.75%;
+            height: auto ;
+            left: 10%;
+            position: relative;
+          }
+      /***/
+
+    /***/
+
+    /*menu-top-IND-wrapper2*/
+      html > body > div.menu-top > div.menu-top-IND-wrapper2{
+        height: 100%;
+        width: 10.5%;
+        
+        float:left; 
+      }
+    /***/
+    /*menu-top-IND-wrapper3*/
+      html > body > div.menu-top > div.menu-top-IND-wrapper3{
+       height: 100%;
+        width: 50%;
+        padding:23.5px; 
+        float:left; 
+      }
+    /***/
+    /*PROGRESS-BAR */
+      div.progress-bar{
+          height:80%; 
+      } 
+    /***/
+
+    /*menu-top-IND-wrapper4*/
+        html > body > div.menu-top > div.menu-top-IND-wrapper4{
+        width: calc(100% / 8);
+         height:100%;
+       
+        float:left;
+        
+        } 
+
+    /***/
+      /*menu-top-IND-wrapperMOEDA1*/
+        html > body > div.menu-top > div.menu-top-IND-wrapper4 > div.menu-top-IND-wrapperMOEDA1{
+
+
+         width: 33.3%;
+         height:100%;
+       
+        float:left;
+        
+        } 
+
+        img.MOEDA1{
+          top:16%;
+          margin: 2.5%;
+            width: 73.75%;
+            height: auto ;
+            left: 10%;
+            position: relative;
+        }
+
+        html > body > div.menu-top > div.menu-top-IND-wrapper4 > div.menu-top-IND-wrapperVALOR1{
+          width: 66.6%;
+         height:100%;
+         
+        float:left;
+        }
+
+        html > body > div.menu-top > div.menu-top-IND-wrapper4 > div.menu-top-IND-wrapperVALOR1 > div.menu-top-INDEXVALOR1{
+           top:20%;
+           left:10%;
+           width: 75%;
+         height:60%;
+         background-color:#999999; 
+        float:left;
+        position: relative;
+        border: 2px solid black ;
+        }
+
+      /***/
+
+
+      /*menu-top-IND-wrapper4*/
+        html > body > div.menu-top > div.menu-top-IND-wrapper5{
+        width: calc(100% / 8);
+         height:100%;
+       
+        float:left;
+        
+        } 
+
+    /***/
+      /*menu-top-IND-wrapperMOEDA1*/
+        html > body > div.menu-top > div.menu-top-IND-wrapper5 > div.menu-top-IND-wrapperMOEDA2{
+
+
+         width: 33.3%;
+         height:100%;
+       
+        float:left;
+        
+        } 
+
+        img.MOEDA2{
+          top:16%;
+          margin: 2.5%;
+            width: 60%;
+            height: auto ;
+            left: 10%;
+            position: relative;
+        }
+
+        html > body > div.menu-top > div.menu-top-IND-wrapper5 > div.menu-top-IND-wrapperVALOR2{
+          width: 66.6%;
+         height:100%;
+         
+        float:left;
+        }
+
+        html > body > div.menu-top > div.menu-top-IND-wrapper5 > div.menu-top-IND-wrapperVALOR2 > div.menu-top-INDEXVALOR2{
+           top:20%;
+           left:10%;
+           width: 75%;
+         height:60%;
+         background-color:#999999; 
+        float:left;
+        position: relative;
+        border: 2px solid black ;
+        }
+
+      /***/
+
+     
+  /***/
+  html > body >  div.tela_esco {
+    height: 105%;
+    width: 100vw;
+    margin:0px 0px;
+    padding:0px 0px;  
+    background-color: black ;
+    background-size:100% 100%;
+    background-repeat: no-repeat;  
+    display:block;   
+  }
+
+  html > body >  div.tela_esco  > div.tela_up{
+    width:100%;
+    display:block;
+    height:30vh;
+
+  }
+
+  img.tu1{
+    float:left;
+    height:70%; 
+  }
+  img.tu2{
+    float:right; 
+    height:70%;
+  }
+  html > body >  div.tela_esco  > div.tela_mid{
+    width:100%;
+    display:block;
+    height:45vh;
+
+  }
+
+  img.tu3{
+    left:50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);  
+    height: 70%; 
+    position: relative ;
+  }
+  
+    html > body >  div.tela_esco  > div.tela_dw{
+    width:100%;
+    display:block;
+    height:22vh;
+
+  }
+
+  img.tu4{
+    float:left;
+    height:100%;
+  }
+
+   img.tu5{
+    float:left;
+    height:100%;
+  }
+
+   img.tu6{
+    float:right;
+    height:100%; 
+  }
+
+   img.tu7{
+    float:right;
+    height:100%;
+  }
+
+/***/
+/*mobile*/
+@media screen and (max-width:720px )  {
+  html,body{
+      height: 127.5%;
+      
+    }
+  html > body > div.menu-top > div.menu-top-IND-wrapper > div.menu-top-IND-wrapperPERFIL >img {
+    cursor: pointer;
+    height: 100%;
+    width: 400%;
+    float: left;
+    top:0%;
+    position: relative; 
+}
+img.mao-dir{
+            top:2%;
+            width: 270.75%;
+            height: 100% ;
+           left:275%;
+            
+            position: relative;
+}
+div.menu-top-IND-wrapperMAODIR{
+  float:left; 
+  position:relative ;
+}
+
+img.MOEDA1 {
+    top: 25%;
+    margin-left:990%; 
+    width: 200%;
+    height: 7vh;
+    margin-right: 40%;
+    position: relative;
+
+
+}
+
+html > body > div.menu-top > div.menu-top-IND-wrapper4 > div.menu-top-IND-wrapperVALOR1 > div.menu-top-INDEXVALOR1 {
+    top: -76.8%;
+    left: 250%;
+    width: 40vw;
+    height: 60%;
+    background-color: #999999;
+    float: left;
+    position: relative;
+    border: 2px solid black;
+}
+
+html > body > div.menu-top > div.menu-top-IND-wrapper4 > div.menu-top-IND-wrapperMOEDA1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-right:40%; 
+}
+
+
+html > body > div.menu-top > div.menu-top-IND-wrapper4 > div.menu-top-IND-wrapperVALOR1 > div.menu-top-INDEXVALOR1 {
+    top: -70.8%;
+    left: 250%;
+    width: 40vw;
+    height: 40%;
+    background-color: #999999;
+    float: left;
+    position: relative;
+    border: 2px solid black;
+}
+
+img.tu1 {
+    float:none; 
+    width:70%;
+    left:15%;
+    height: 100%;
+    position:relative ;
+}
+img.tu2 {
+  float:none;
+    width:70%;
+    left:15%;
+    height: 100%;
+    position:relative ;
+    z-index:99999;
+}
+
+
+  img.tu4{
+    float:none;
+    
+    width:70%;
+    left:15%;
+    height: 100%;
+    position:relative ;
+  }
+
+   img.tu5{
+   float:none;
+    width:70%;
+    left:15%;
+    height: 100%;
+    position:relative ;
+  }
+
+   img.tu6{
+    float:none;
+    width:70%;
+    left:15%;
+    height: 100%;
+    position:relative ; 
+  }
+
+   img.tu7{
+    float:none;
+   
+    width:70%;
+    left:15%;
+    height: 100%;
+    position:relative ;
+  }
+  img.tu3{
+    left:50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);  
+    height: 70%; 
+    top:45%;
+    position: relative ;
+  }
+img.tu1:hover, img.tu1:active{filter: brightness(300%);}
+img.tu2:hover, img.tu2:active{filter: brightness(300%);}
+
+img.tu4:hover, img.tu4:active{filter: brightness(300%);}
+img.tu5:hover, img.tu5:active{filter: brightness(300%);}
+img.tu6:hover, img.tu6:active{filter: brightness(300%);}
+img.tu7:hover, img.tu7:active{filter: brightness(300%);}
+img.MOEDA2 {
+    top: 210%;
+    margin: 2.5%;
+    width: 60%;
+    height: auto;
+    left: 10%;
+    position: relative;
+}
+
+}

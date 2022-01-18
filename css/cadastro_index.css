@@ -1,0 +1,33 @@
+*{
+	margin: 0px;
+	padding:0px
+
+}
+
+html,body {
+	height:100%;
+}
+
+body{
+	background-color: black ; 
+}
+
+  
+#Titulo{width:96%;
+margin-left:2%;
+margin-right:2%; 
+}
+
+.button{
+	background-color: black ;
+	padding: 2%;  
+	border: 3px white solid;
+	margin:2%; 
+	font-weight: bold;
+	color:white;
+}
+.button:hover{
+	background-color: grey;
+	border: 3px grey solid;
+	color:black  ;
+}

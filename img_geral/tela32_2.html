@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="UTF-8"/>  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="../js/script14.js"></script>
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-weight:bold;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+a.confirm:link, a.confirm:visited,a.menu:link, a.menu:visited, a.voltar:link, a.voltar:visited {
+    background-color: #000;
+    border: 1px solid #000;
+    color: white;
+    display: inline-block;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    
+    width:100%;
+    }
+
+    a.confirm:hover, a.confirm:active ,a.menu:hover, a.menu:active , a.voltar:hover, a.voltar:active  {
+      background-color: #e0e0d1;
+      color: #000;
+    }
+
+
+    .links{
+    width:120px;
+    }
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Escolha sua guilda:</h2>
+<div class="links"> 
+<a class= "menu" href="../tela_24/tela_24.html">menu</a>
+<br>
+ <a class= "voltar" href="../tela_31/tela_31.html">voltar</a>
+<br>
+<a class= "confirm" onclick="ok2()"  href= "#Finalizado">Confirme</a>
+<br>
+</div>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 18</div>
+    <img src="Anger_vains_.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">2 / 18</div>
+    <img src="Apocalypse_.png" style="width:100%">
+  </div> 
+  <div class="mySlides">
+    <div class="numbertext">3 / 18</div>
+    <img src="Ascient_runes_.png" style="width:100%">
+  </div> 
+  <div class="mySlides">
+    <div class="numbertext">4 / 18</div>
+    <img src="Attack_1-5_.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">5 / 18</div>
+    <img src="Bow_hunters_.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">6 / 18</div>
+    <img src="Heaven_.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">7 / 18</div>
+    <img src="Hell_.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">8 / 18</div>
+    <img src="IRA_.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">9 / 18</div>
+    <img src="itens99_.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">10 / 18</div>
+    <img src="Maximilar_.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">11 / 18</div>
+    <img src="Nirvana_.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">12 / 18</div>
+    <img src="No.1_(Beast_mode)_.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">13 / 18</div>
+    <img src="Racer_of_the_road_.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">14 / 18</div>
+    <img src="Racers_.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">15 / 18</div>
+    <img src="Runes_of_Asgard_.png" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">16 / 18</div>
+    <img src="The_act_.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">17 / 18</div>
+    <img src="The_cult_.png" style="width:100%">
+  </div> 
+
+  <div class="mySlides">
+    <div class="numbertext">18 / 18</div>
+    <img src="The_shop_.png" style="width:100%">
+  </div> 
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+</div>
+
+
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="Anger_vains_wide.png" style="width:100%" onclick="currentSlide(1)" alt="Anger Vains ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="Apocalypse_wide.png" style="width:100%" onclick="currentSlide(2)" alt="Apocalypse">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Ascient_runes_wide.png" style="width:100%" onclick="currentSlide(3)" alt="Runas antigas">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Attack_1-5_wide.png" style="width:100%" onclick="currentSlide(4)" alt="grupo dos combeiros">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Bow_hunters_wide.png" style="width:100%" onclick="currentSlide(5)" alt="Grupo de hunters">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="Heaven_wide.png" style="width:100%" onclick="currentSlide(6)" alt="Paraíso">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="Hell_wide.png" style="width:100%" onclick="currentSlide(7)" alt="Infernais ">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="IRA_wide.png" style="width:100%" onclick="currentSlide(8)" alt="para iraces">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="itens99_wide.png" style="width:100%" onclick="currentSlide(9)" alt="Para o pessoal de comprar">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="Maximilar_wide.png" style="width:100%" onclick="currentSlide(10)" alt="Para os necromantes ">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="Nirvana_wide.png" style="width:100%" onclick="currentSlide(11)" alt="Para o bem de todos">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="No.1_(Beast_mode)_wide.png" style="width:100%" onclick="currentSlide(12)" alt="Para ativar o modo besta.">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="Racers_of_the_road_wide.png" style="width:100%" onclick="currentSlide(13)" alt="Para o pessoal da estrada">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="Racers_wide.png" style="width:100%" onclick="currentSlide(14)" alt="Para o pessoal de dos irace ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="Runes_of_Asgard_wide.png" style="width:100%" onclick="currentSlide(15)" alt="Para os mais antigos">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="The_act_wide.png" style="width:100%" onclick="currentSlide(16)" alt="O ato">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="The_cult_wide.png" style="width:100%" onclick="currentSlide(17)" alt="Culto aos antigos">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="The_shop_wide.png" style="width:100%" onclick="currentSlide(18)" alt="Vendas de itens em proprulsão">
+    </div>
+    
+
+  </div>
+</div>
+<script src="../js/script18.js"></script>
+<script src="../tela_22/script_22.js"></script>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+  }
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+
+
+
+
+
+
+
+
+function ok2(){
+  if(slideIndex===1){
+    localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:', 'Anger vains');}
+
+    //exemplo:
+  if(slideIndex===2){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','Apocalypse');}
+  
+  
+  if(slideIndex===3){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:',' Ascient Runes');}
+
+  if(slideIndex===4){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:',' Attack 1.5');}
+  
+  if(slideIndex===5){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','Bow hunters');}
+
+  if(slideIndex===6){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','Heaven');}
+
+  if(slideIndex===7){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','Hell');}
+
+  if(slideIndex===8){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','IRA');}
+  
+  if(slideIndex===9){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','itens99');}
+  
+  if(slideIndex===10){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','Maximilar');}
+  
+  if(slideIndex===11){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','Nirvana');}
+
+  if(slideIndex===12){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','No.1/ (Beast mode)');}
+
+  if(slideIndex===13){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','Racers of the road');}
+
+  if(slideIndex===14){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','Racers');}
+
+  if(slideIndex===15){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','Runes of asgard');}
+
+  if(slideIndex===16){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','The act');}
+
+  if(slideIndex===17){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','The cult');}
+
+  if(slideIndex===18){
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+'[ORG]:','The shop');}
+}
+
+ 
+    
+  if(localStorage.getItem("SLOT:") == 1){
+
+       localStorage.setItem("SLOT1:u~" + localStorage.getItem("char:")+']'+':'+'[ORG]:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'[ORG]:')); 
+      localStorage.setItem("SLOT1:u~" + localStorage.getItem("char:")+']'+':'+'ORG:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'ORG:'));
+
+      localStorage.setItem("SLOT1:u~" + localStorage.getItem("char:")+']'+':'+'UF~_MP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_MP:'));
+
+      localStorage.setItem("SLOT1:u~" + localStorage.getItem("char:")+']'+':'+'UF~_HP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_HP:'));
+
+      localStorage.setItem("SLOT1:u~" + localStorage.getItem("char:")+']'+':'+'UF~_PW:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_PW:'));
+
+      localStorage.setItem("SLOT1:u~" + localStorage.getItem("char:")+']'+':'+'UF~_DEF:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_DEF:'));
+
+      localStorage.setItem("SLOT1:u~" + localStorage.getItem("char:")+']'+':'+'UF~_ATK:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_ATK:'));
+
+  }
+
+
+ 
+   if(localStorage.getItem("SLOT:") == 2){
+
+       localStorage.setItem("SLOT2:u~" + localStorage.getItem("char:")+']'+':'+'[ORG]:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'[ORG]:')); 
+      localStorage.setItem("SLOT2:u~" + localStorage.getItem("char:")+']'+':'+'ORG:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'ORG:'));
+
+      localStorage.setItem("SLOT2:u~" + localStorage.getItem("char:")+']'+':'+'UF~_MP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_MP:'));
+
+      localStorage.setItem("SLOT2:u~" + localStorage.getItem("char:")+']'+':'+'UF~_HP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_HP:'));
+
+      localStorage.setItem("SLOT2:u~" + localStorage.getItem("char:")+']'+':'+'UF~_PW:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_PW:'));
+
+      localStorage.setItem("SLOT2:u~" + localStorage.getItem("char:")+']'+':'+'UF~_DEF:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_DEF:'));
+
+      localStorage.setItem("SLOT2:u~" + localStorage.getItem("char:")+']'+':'+'UF~_ATK:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_ATK:'));
+
+  }
+  
+
+   if(localStorage.getItem("SLOT:") == 3){
+
+       localStorage.setItem("SLOT3:u~" + localStorage.getItem("char:")+']'+':'+'[ORG]:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'[ORG]:')); 
+      localStorage.setItem("SLOT3:u~" + localStorage.getItem("char:")+']'+':'+'ORG:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'ORG:'));
+
+      localStorage.setItem("SLOT3:u~" + localStorage.getItem("char:")+']'+':'+'UF~_MP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_MP:'));
+
+      localStorage.setItem("SLOT3:u~" + localStorage.getItem("char:")+']'+':'+'UF~_HP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_HP:'));
+
+      localStorage.setItem("SLOT3:u~" + localStorage.getItem("char:")+']'+':'+'UF~_PW:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_PW:'));
+
+      localStorage.setItem("SLOT3:u~" + localStorage.getItem("char:")+']'+':'+'UF~_DEF:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_DEF:'));
+
+      localStorage.setItem("SLOT3:u~" + localStorage.getItem("char:")+']'+':'+'UF~_ATK:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_ATK:'));
+
+  }  
+
+     if(localStorage.getItem("SLOT:") == 4){
+
+       localStorage.setItem("SLOT4:u~" + localStorage.getItem("char:")+']'+':'+'[ORG]:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'[ORG]:')); 
+      localStorage.setItem("SLOT4:u~" + localStorage.getItem("char:")+']'+':'+'ORG:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'ORG:'));
+
+      localStorage.setItem("SLOT4:u~" + localStorage.getItem("char:")+']'+':'+'UF~_MP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_MP:'));
+
+      localStorage.setItem("SLOT4:u~" + localStorage.getItem("char:")+']'+':'+'UF~_HP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_HP:'));
+
+      localStorage.setItem("SLOT4:u~" + localStorage.getItem("char:")+']'+':'+'UF~_PW:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_PW:'));
+
+      localStorage.setItem("SLOT4:u~" + localStorage.getItem("char:")+']'+':'+'UF~_DEF:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_DEF:'));
+
+      localStorage.setItem("SLOT4:u~" + localStorage.getItem("char:")+']'+':'+'UF~_ATK:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_ATK:'));
+
+  }
+    
+
+     if(localStorage.getItem("SLOT:") == 5){
+
+       localStorage.setItem("SLOT5:u~" + localStorage.getItem("char:")+']'+':'+'[ORG]:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'[ORG]:')); 
+      localStorage.setItem("SLOT5:u~" + localStorage.getItem("char:")+']'+':'+'ORG:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'ORG:'));
+
+      localStorage.setItem("SLOT5:u~" + localStorage.getItem("char:")+']'+':'+'UF~_MP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_MP:'));
+
+      localStorage.setItem("SLOT5:u~" + localStorage.getItem("char:")+']'+':'+'UF~_HP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_HP:'));
+
+      localStorage.setItem("SLOT5:u~" + localStorage.getItem("char:")+']'+':'+'UF~_PW:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_PW:'));
+
+      localStorage.setItem("SLOT5:u~" + localStorage.getItem("char:")+']'+':'+'UF~_DEF:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_DEF:'));
+
+      localStorage.setItem("SLOT5:u~" + localStorage.getItem("char:")+']'+':'+'UF~_ATK:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_ATK:'));
+
+  }
+     if(localStorage.getItem("SLOT:") == 6){
+
+       localStorage.setItem("SLOT6:u~" + localStorage.getItem("char:")+']'+':'+'[ORG]:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'[ORG]:')); 
+      localStorage.setItem("SLOT6:u~" + localStorage.getItem("char:")+']'+':'+'ORG:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'ORG:'));
+
+      localStorage.setItem("SLOT6:u~" + localStorage.getItem("char:")+']'+':'+'UF~_MP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_MP:'));
+
+      localStorage.setItem("SLOT6:u~" + localStorage.getItem("char:")+']'+':'+'UF~_HP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_HP:'));
+
+      localStorage.setItem("SLOT6:u~" + localStorage.getItem("char:")+']'+':'+'UF~_PW:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_PW:'));
+
+      localStorage.setItem("SLOT6:u~" + localStorage.getItem("char:")+']'+':'+'UF~_DEF:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_DEF:'));
+
+      localStorage.setItem("SLOT6:u~" + localStorage.getItem("char:")+']'+':'+'UF~_ATK:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_ATK:'));
+
+  }
+    
+
+  if(localStorage.getItem("SLOT:") == 7){
+
+      localStorage.setItem("SLOT7:u~" + localStorage.getItem("char:")+']'+':'+'[ORG]:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'[ORG]:'));
+       
+      localStorage.setItem("SLOT7:u~" + localStorage.getItem("char:")+']'+':'+'ORG:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'ORG:'));
+
+      localStorage.setItem("SLOT7:u~" + localStorage.getItem("char:")+']'+':'+'UF~_MP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_MP:'));
+
+      localStorage.setItem("SLOT7:u~" + localStorage.getItem("char:")+']'+':'+'UF~_HP:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_HP:'));
+
+      localStorage.setItem("SLOT7:u~" + localStorage.getItem("char:")+']'+':'+'UF~_PW:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_PW:'));
+
+      localStorage.setItem("SLOT7:u~" + localStorage.getItem("char:")+']'+':'+'UF~_DEF:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_DEF:'));
+
+      localStorage.setItem("SLOT7:u~" + localStorage.getItem("char:")+']'+':'+'UF~_ATK:', localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_ATK:'));
+
+  }
+/*
+  add_historic("coordX:",1, "valor inicial");
+  add_historic("coordY:",1, "valor inicial");
+  add_historic("coordZ:",1, "valor inicial");
+  add_historic("spot:","hotel_golden_star", "ponto inicial"); */
+  var gold_string = "0" ;
+  localStorage.setItem(localStorage.getItem("char:")+']'+':'+"Gold:", gold_string);
+ 
+</script>
+  
+</body>
+</html>

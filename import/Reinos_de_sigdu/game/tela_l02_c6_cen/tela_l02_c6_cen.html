@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/> 
+		<title> Cenários add </title>
+		
+		<style>
+
+	        .cen_box{
+				border: 3px solid black;
+				margin-bottom:2%; 
+				cursor:pointer;
+	        }
+
+	        .text_cen_box{
+				padding-left:1%; 			
+	        }
+
+	        .cen_box_title{
+				border: 3px solid black;
+				margin-bottom:2%; 
+	        }
+	        .cen_box:hover {
+			  background-color: #555555;
+			  color:white;
+			}
+            a.confirm:link, a.confirm:visited,a.menu:link, a.menu:visited, a.voltar:link, a.voltar:visited {
+			    background-color: #000;
+			    border: 1px solid #000;
+			    color: white;
+			    display: inline-block;
+			    padding: 14px 25px;
+			    text-align: center;
+			    text-decoration: none;
+			    
+			    width:100%;
+		    }
+
+		    a.confirm:hover, a.confirm:active ,a.menu:hover, a.menu:active , a.voltar:hover, a.voltar:active  {
+
+		      background-color: #e0e0d1;
+		      color: #000;
+		    }
+
+
+		    .links{
+			    width:120px;
+			    margin-bottom:2%; 
+		    }
+		    vermelho{
+		    	color:red;
+		    }
+		    #img{
+		    	width:60%;
+		    }
+		</style>
+		<script type="text/javascript" src="../tela_01_cen/script.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+
+	<body>
+		<div class="links"> 
+			<a class= "menu" href="../tela_24/tela_24.html">menu</a>
+			<br>
+			<a class= "voltar" href="../tela_01_cen/tela_01_cen.html">voltar</a>
+			<br>
+		</div>
+
+		<div class="cen_box_title" >
+			<p class="text_cen_box"> Você achaa chave de manutenção parabéns.</p>
+			<img id= "img" src= "../library/img/itens/item400-img.png"/>
+			<p class="text_cen_box"> Ao lado acha um bilhete dizendo:</p>
+			<img id= "img" src= "../library/img/itens/item401-img.png"/>
+		</div>
+
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(2,17,0); intro_bilhete_01();"> Guardar o bilhete; <vermelho><b> !!!!!! </b></vermelho>  </p> 
+		</div>
+	    
+	    <div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(15,24,0);"> Verificar janela da direita;   </p> 
+		</div>	
+		
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(13,24,0);"> Verificar as plantas;   </p> 
+		</div>
+
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(14,15,0);"> Falar com zumbis;   </p> 
+		</div>
+
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(15,22,0);"> Verificar escada;   </p> 
+		</div>		
+
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(10,11,0);"> Ir até as portas arranhadas;   </p> 
+		</div>
+
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(8,13,0);"> Ir até as catracas; </p> 
+		</div>		
+
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(5,21,0);"> Verificar janela a esquerda;   </p> 
+		</div>	
+
+	</body>
+</html>

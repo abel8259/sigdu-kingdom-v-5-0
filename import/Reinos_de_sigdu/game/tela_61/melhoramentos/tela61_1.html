@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Ficha</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+
+<div class="boxT">
+	<p>PERFIL - status</p>
+</div>
+
+
+<div class="box1" >
+	<p>Nome: CHAR </p><br/>
+    <p class="resposta"></p>
+</div>
+
+<div class="xp" >
+	<p>XP: </p><br/>
+    <p class="resposta"></p>
+</div>
+
+<div class="lv" >
+	<p>LV: </p><br/>
+    <p class="resposta"></p>
+</div>
+
+<div class="box1" >
+	<p>RAÇA: CHAR </p><br/>
+    <p class="resposta"></p>
+</div>
+
+
+
+
+<div class="box1" >
+	<p>CLASSE: CHAR </p><br/>
+    <p class="resposta"  ></p>
+</div>
+
+<div class="box1" >
+	<p>ORGANIZAÇÃO:</p><br/>
+    <p class="resposta"></p>
+</div>
+
+<!--atk ball-->
+
+<div class="VIEW-CIRCLE0">
+<p class="name-circle0" > ATK: </p>
+<p></p>
+</div> 
+
+<div class="VIEW-CIRCLE1">
+<p class="name-circle1" > MAX: </p>
+<p></p>
+</div> 
+
+<!--def ball-->
+
+<div class="VIEW-CIRCLE2">
+<p class="name-circle2" > DEF: </p>
+<p></p>
+</div> 
+
+<div class="VIEW-CIRCLE3">
+<p class="name-circle3" > MAX: </p>
+<p></p>
+</div>
+
+<!--pw ball-->
+
+<div class="VIEW-CIRCLE4">
+<p class="name-circle4" > PW: </p>
+<p></p>
+</div> 
+
+<div class="VIEW-CIRCLE5">
+<p class="name-circle5" > MAX: </p>
+<p></p>
+</div>
+
+<div class="boxE"></div>
+
+
+<!--HP ball-->
+
+<div class="VIEW-CIRCLE6">
+<p class="name-circle6" > HP: </p>
+<p></p>
+</div> 
+
+<div class="VIEW-CIRCLE7">
+<p class="name-circle7" > MAX: </p>
+<p></p>
+</div>
+
+<div class="boxE"></div>
+
+<!--MP ball-->
+
+<div class="VIEW-CIRCLE8">
+<p class="name-circle8" > MP: </p>
+<p></p>
+</div> 
+
+<div class="VIEW-CIRCLE9">
+<p class="name-circle9" > MAX: </p>
+<p></p>
+</div>
+
+
+
+
+
+<div class="bar_energy">
+    <p id="esfer"> esfera de energia</p>
+    <p id="esferas-char"></p>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-container">
+  <div class="item1">ITENS</div>
+  
+  <div class="item2">Atributos</div>
+
+  <div class="item3">item 1</div>  
+  <div class="item4">item 2</div>
+  <div class="item5">item 3</div>
+  <div class="item6">item 4</div>
+  <div class="item7">item 5</div>
+  <div class="item8">item 6</div>  
+  <div class="item9">item 7</div>
+
+  <div class="item10">ATK:</div>
+
+  <div class="item11">0</div>
+  <div class="item12">0</div>
+  <div class="item13">0</div>
+  <div class="item14">0</div>
+  <div class="item15">0</div>
+  <div class="item16">0</div>
+  <div class="item17">0</div>
+
+  <div class="item18">DEF:</div>
+
+  <div class="item19">0</div>  
+  <div class="item20">0</div>
+  <div class="item21">0</div>
+  <div class="item22">0</div>
+  <div class="item23">0</div>
+  <div class="item24">0</div>  
+  <div class="item25">0</div>
+
+  <div class="item26">PW</div>
+
+  <div class="item27">0</div>
+  <div class="item28">0</div>
+  <div class="item29">0</div>
+  <div class="item30">0</div>
+  <div class="item31">0</div>
+  <div class="item32">0</div>
+  <div class="item33">0</div>
+
+  <div class="item34">HP</div>
+
+  <div class="item35">0</div>
+  <div class="item36">0</div>
+  <div class="item37">0</div>
+  <div class="item38">0</div>
+  <div class="item39">0</div>
+  <div class="item40">0</div>
+  <div class="item41">0</div>
+
+  <div class="item42">MP</div>
+
+  <div class="item43">0</div>
+  <div class="item44">0</div>
+  <div class="item45">0</div>
+  <div class="item46">0</div>
+  <div class="item47">0</div>
+  <div class="item48">0</div>
+  <div class="item49">0</div>
+</div>
+
+<br>
+
+
+
+
+
+
+<div class="pagination">
+  
+  <a href="C:\Reinos_de_sigdu\game\tela_61\tela_61.html" class="active">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+
+
+<div class="boxE"></div>
+
+<script>
+
+ 
+      var nomm = localStorage.getItem(localStorage.getItem("char:"));
+      document.getElementById("nm-char").innerText= nomm;
+      
+  
+      var nacc = localStorage.getItem(localStorage.getItem("char:")+']'+':'+'raça:');
+      document.getElementById("rc-char").innerText= nacc;
+  
+      var clss = localStorage.getItem(localStorage.getItem("char:")+']'+':'+'classe:');
+      document.getElementById("cl-char").innerText= clss;
+
+      var pln = localStorage.getItem(localStorage.getItem("char:")+']'+':'+'plan:');
+      document.getElementById("plano-char").innerText= pln;
+
+      var org = localStorage.getItem(localStorage.getItem("char:")+']'+':'+'[ORG]:');
+      document.getElementById("org-char").innerText= org;
+
+      var ESF = localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_MP:');
+      var cont_esf = parseInt(ESF)/50;  
+      document.getElementById("esferas-char").innerText= cont_esf + "x O";
+
+
+
+
+
+
+            var ATKU = localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_ATK:');
+      document.getElementById("atkx").innerHTML = ATKU;
+
+
+            var DEFU =localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_DEF:'); 
+      document.getElementById("defx").innerHTML = DEFU;
+
+
+            var PWU =localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_PW:');
+      document.getElementById("pwx").innerHTML = PWU;
+
+            var HPU = localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_HP:');
+      document.getElementById("hpx").innerHTML = HPU;
+
+            var MPU = localStorage.getItem(localStorage.getItem("char:")+']'+':'+'UF~_MP:');
+      document.getElementById("mpx").innerHTML = MPU;
+</script>
+
+</body>
+
+</html>

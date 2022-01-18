@@ -1,0 +1,84 @@
+#controller-painel{
+
+	position:absolute;
+    left:25%;
+    top:18%;
+    width:50%;
+    height:60% ;
+
+}
+
+
+
+#tagline-output-screen{
+
+	position:absolute;
+    top:5%;
+    left:5%;
+    width:90%;
+    height:80%;
+    border:3px solid black;
+}
+
+
+
+#tagline-command{
+
+	position:absolute;
+    top:90%;
+    left:5%;
+    width:90%;
+    height:auto ;
+    border:3px solid black;
+}
+
+
+#controller-foward{
+	position:absolute;
+	top:27%;
+	left:36%;
+}
+
+#controller-back{
+	position:absolute;
+	top:55%;
+	left:36%;
+}
+
+#controller-right{
+	position:absolute;
+	top:41%;
+	left:43%;
+}
+
+#controller-left{
+	position:absolute;
+	top:41%;
+	left:29%;
+}
+
+#controller-up{
+	position:absolute;
+	top:27%;
+	left:60%;
+}
+
+#controller-down{
+	position:absolute;
+	top:55%;
+	left:60%;
+}
+
+#controller-speak{
+	position:absolute;
+	top:75%;
+	left:27%;
+	width:20%;
+}
+
+#controller-actions{
+	position:absolute;
+	top:75%;
+	left:53%;
+	width:20%;
+}
