@@ -12,4 +12,5 @@ Warning:
 - Se nao acredita leia por si próprio. 
 - O código é <b>open source</b>.      
 
+Conteudo antigo: https://github.com/abel8259/sigdu-kingdom-v-5-0/search?l=hack 
 
