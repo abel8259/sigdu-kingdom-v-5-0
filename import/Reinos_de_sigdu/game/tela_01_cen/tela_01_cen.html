@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/> 
+		<title> Cenários add </title>
+		
+		<style>
+           a{
+           	text-decoration: none;
+           	color:black;
+           } 
+	        .cen_box{
+				border: 3px solid black;
+				margin-bottom:2%; 
+				cursor:pointer;
+	        }
+
+	        .text_cen_box{
+				padding-left:1%; 			
+	        }
+
+	        .cen_box_title{
+				border: 3px solid black;
+				margin-bottom:2%; 
+	        }
+	        .cen_box:hover {
+			  background-color: #555555;
+			  color:white;
+			}
+            a.confirm:link, a.confirm:visited,a.menu:link, a.menu:visited, a.voltar:link, a.voltar:visited {
+			    background-color: #000;
+			    border: 1px solid #000;
+			    color: white;
+			    display: inline-block;
+			    padding: 14px 25px;
+			    text-align: center;
+			    text-decoration: none;
+			    
+			    width:100%;
+		    }
+
+		    a.confirm:hover, a.confirm:active ,a.menu:hover, a.menu:active , a.voltar:hover, a.voltar:active  {
+
+		      background-color: #e0e0d1;
+		      color: #000;
+		    }
+
+
+		    .links{
+			    width:120px;
+			    margin-bottom:2%; 
+		    }
+		    vermelho{
+		    	color:red;
+		    }
+		</style>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+
+	<body>
+		<div class="links"> 
+			<a class= "menu" href="../tela_24/tela_24.html">menu</a>
+			<br>
+			<a class= "voltar" href="../tela_cen_add.html">voltar</a>
+			<br>
+		</div>
+
+		<div class="cen_box_title" >
+			<p class="text_cen_box"> Você acabou de entrar num  hotel  muito  bonito e alto, porém 
+			muito descuidado. As janelas estão danificadas e estilhaçadas. As plantas estão entrando 
+			no prédio. São plantas verdes e de raízes bem fortes . Há um balcão e uma escada a direita.
+			A escada está inacessível. Ao left a um segundo balcão onde há algo brilhante jogado ao 
+			canto. Em frente  ha duas portas parecidas comas portas de emergência de um hospital.
+			Elas são velhas e tem  vários arranhões parecendo ter vindo de algo grande.</p> 
+		</div>
+
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(15,24,0);"> Verificar janela a direita;   </p> 
+		</div>
+
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(13,24,0);"> Verificar as plantas;   </p> 
+		</div>
+
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(14,15,0);"> Falar com zumbis;   </p> 
+		</div>
+
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(15,22,0);"> Verificar escada;   </p> 
+		</div>		
+
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(10,11,0);"> Ir até as portas arranhadas;   </p> 
+		</div>
+
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(2,17,0);"> Ir até a coisa brilhante;   </p> 
+		</div>
+        <a href="../tela_l02_c6_cen/tela_l02_c6_cen.html"> 
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(8,13,0);"> Ir até as catracas; <vermelho><b> !!!!!! </b></vermelho></p> 
+		</div>	</a>	
+
+		<div class="cen_box" >
+			<p class="text_cen_box" onclick="xyz(5,21,0);"> Verificar janela a esquerda;   </p> 
+		</div>	
+
+	</body>
+</html>

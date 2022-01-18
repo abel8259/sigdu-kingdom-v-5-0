@@ -1,0 +1,237 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+html, body{
+	height:100%;
+}
+
+#caixa{
+	border: 3px solid  black;
+	margin-top:3.8%;
+
+	margin-left:35%;
+	margin-right:35%;
+	width:30%; 
+	height:83%;
+	position:absolute ;
+} 
+
+#text_itens{
+	
+	width:71.8%;
+	height:10%;
+	position:absolute ;
+	border: 1px solid black ; 
+}  
+
+#titulo{
+	text-align: center; 
+	margin-top:5%; 
+}
+#vagas_i{
+	text-align: center; 
+	margin-top:11%; 
+}
+
+#vagas_itens{
+	width:28.2%;
+	margin-left:71.8%; 
+	height:10%;
+	position:absolute ;
+	border: 1px solid black ;
+} 
+
+#itens_local{
+	margin-top:13%;
+	height:90%;
+	width:100%;
+	position:relative  ;
+	border: 1px solid black ;
+	
+	overflow: scroll;
+}
+
+
+.img-item{
+		margin:0%;
+		width:24.5%;
+		height:100%;
+		background-color:black ; 
+	    float:left; 
+}
+
+
+.img-item-status{
+		margin-left:0%;
+		width:51%;
+		height:100%;
+		background-color:green ; 
+	    float:left;
+}
+
+.img-item-value{
+		
+		width:24.5%;
+		height:100%;
+		background-color:black ; 
+	    float:right;
+	    position:relative ;
+}
+
+.caixa_item{
+
+	margin-top:5%;
+	margin-left:5%;
+	margin-bottom:5%;
+	width:90%;
+	height:20%;   
+	background-color: orange ; 
+	position:relative    ;
+}
+
+.imagem{
+	width:100%;
+	height:100%;
+}
+
+#vagas_i{
+	text-align:center; 
+}
+
+ a.menu:link, a.menu:visited, a.voltar:link, a.voltar:visited {
+    background-color: #000;
+    border: 1px solid #000;
+    color: white;
+    display: inline-block;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    
+    width:100%;
+    }
+
+   a.menu:hover, a.menu:active , a.voltar:hover, a.voltar:active  {
+      background-color: #e0e0d1;
+      color: #000;
+    }
+
+
+    .links{
+    width:120px;
+    }
+.pagination{
+margin-top:25px; 
+margin-left:47px; 
+}
+    .pagmenu{
+            border: 1px solid black;
+            padding:7px;
+
+		}
+		.pagmenu:hover{
+			background-color: grey;
+			color:white; 
+           
+		}
+
+		#button00{
+  border: 2px solid black ;
+  background-color:black ;
+  color:white; 
+  margin-top:6%; 
+  text-align:center; 
+  cursor: pointer;
+  margin-left:40%;
+  margin-right:40%;
+   padding:5px;   
+}
+
+    #button00:hover{
+      background-color: #e0e0d1;
+      color: #000;
+    }
+
+#menu_gold{
+  border: 2px solid black ;
+  background-color:yellow ;
+  color:black; 
+  margin-top:2%; 
+  text-align:center; 
+  cursor: pointer;
+  margin-left:40%;
+  margin-right:40%;
+   padding:5px;  
+}
+
+@media screen and (max-width: 982px) {
+
+	#caixa{
+		border: 3px solid  black;
+		margin-top:3.8%;
+
+		margin-left:2%;
+		margin-right:3%;
+		width:95%; 
+		height:83%;
+		position:absolute ;
+	}
+	#titulo{
+	font-size: 40px;
+	}
+
+	#vagas_i{
+		text-align: center; 
+		margin-top:11%; 
+		font-size: 40px;
+	}
+
+	#button00{
+	  border: 2px solid black ;
+	  background-color:black ;
+	  color:white; 
+	  margin-top:6%; 
+	  text-align:center; 
+	  cursor: pointer;
+	  margin-left:40%;
+	  margin-right:40%;
+	   padding:5px;
+	  	font-size: 40px;   
+	}
+	#menu_gold{
+
+		font-size: 40px;
+	}
+
+	.links{
+    width:30%;
+
+    }
+     a.menu:link, a.menu:visited, a.voltar:link, a.voltar:visited {
+    background-color: #000;
+    border: 1px solid #000;
+    color: white;
+    display: inline-block;
+    padding: 50px 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size:60px;
+    width:100%;
+
+    }
+
+   a.menu:hover, a.menu:active , a.voltar:hover, a.voltar:active  {
+      background-color: #e0e0d1;
+      color: #000;
+    }
+    .pagination{
+		margin-top:5%; 
+		margin-left:8%;
+		width:90%; 
+	}
+	.pagmenu{
+		padding:2.2%;
+		font-size:40px;
+	} 
+} 

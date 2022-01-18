@@ -1,0 +1,853 @@
+/*FORMATAÇÃO-BÁSICA*/      
+
+	*{
+		margin:0px;
+		padding: 0px;
+		box-sizing: border-box;
+		font-family:"Open Sans" ;   
+	}
+
+	html,body{
+		height:100%; 
+	}
+
+/***/
+
+/*HEADER*/  
+	header{
+		width:100%;
+		height:90vh;
+		padding:40px 2%; 
+		max-height:700px;
+		min-height:800px;
+		background-size: cover;
+		background-position:center;   
+		background-image:url('../imagens/agenda.jpg'); 
+		font-weight:300; 
+	} 
+
+
+	/*CONTAINER*/  
+		.container{
+		    max-width: 1280px;
+		    margin: 0 auto; 
+		} 
+
+		section.sessao1 > div.container{
+            max-width: 1280px;
+		    margin: 0 auto; 
+		}
+
+	/***/
+	/*MOBILE-MENU*/
+
+	    header nav.mobile-menu{
+	    	cursor:pointer;
+	    	display:none; 
+	    	width:24px;
+            height:24px;
+            background-image: url('../imagens/list.png'); 
+            background-size:100% 100%; 
+	    }
+
+	    header nav.mobile-menu:hover  ul{
+	    	opacity:1;  
+	    }
+
+	    header nav.mobile-menu ul{
+            opacity:0; 
+	    	background-color:white ; 
+	    	left:0;
+	    	transition:1s; 
+	    	top:80px;
+	    	position:absolute;
+	    	width:100%;
+	   
+	    	color: black;
+	    	list-style-type: none;
+	    	text-align:center;   
+	    }
+
+	    header nav.mobile-menu ul li{
+	    	padding:8px 0; 
+	    	transition:0.5s; 
+            border-bottom: 1px solid black ;
+	    }
+	    header nav.mobile-menu ul li:hover, header nav.mobile-menu ul li:active{
+        
+           background-color: black ;
+        color: #000;
+	    }	
+
+	    header nav.mobile-menu ul li:link, header nav.mobile-menu ul li:visited{
+			background-color: #000;
+			color: white;
+			  padding: 14px 25px;
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			  border: 1px solid #000;
+	    }
+
+	    header nav.mobile-menu ul li a{
+	    	color:black ;
+	    	text-decoration:none; 
+	    } 
+	/***/
+
+ 
+	/*DESKTOP-MENU*/
+
+		header nav.desktop-menu{
+			float:right; 
+		}
+
+	    header nav.desktop-menu ul{
+	    	list-style-type: none;
+	    }  
+
+	    header nav.desktop-menu li{
+	    	float:left;
+	    	margin: 0 20px;   
+	    }   
+
+	    header > div.container > nav.desktop-menu > ul > li > a{
+	    	color:white ;
+	    	text-decoration:none; 
+	    }    
+	  
+	   
+
+	/***/
+
+    /*LOGO*/
+
+		header > div.container > div.logo{
+		    float:left; 
+		    width:160px;
+		    height: 40px;
+		    background: #ccc;
+		    background-image: url('../imagens/title.png'); 
+		    background-size: contain ;
+		    background-repeat: no-repeat;
+		    background-color:transparent;      
+		} 
+
+	/***/
+
+	/*CLEAR*/
+        .clear{
+       
+            clear:both; 
+
+
+       }
+
+	/***/ 
+
+	/*CHAMADA1*/
+        header > div.container > div.chamada1{
+        	float:right;
+        	margin: 140px 45px;
+        	max-width:500px;    
+        }
+        header > div.container > div.chamada1 >h2{
+        	font-size:30px;   
+        	color:white;
+        	font-weight:300;
+        }
+        header > div.container > div.chamada1 >p{
+        	font-size:15px;   
+        	color:white;
+        	margin-top:10px ;
+        	text-align: justify; 
+        }
+	/***/
+/***/
+
+/*SESSAO1*/
+    section.sessao1{
+    	width:100%;
+    	background:black ;
+    	padding: 0 2%;
+    	height:400px;  
+    } 
+
+    /*TEXTOSESSAO1*/
+	    section.sessao1 > div.container > div.textosessao1{
+	        float:left;
+	        color:white; 
+	        width:50%;
+	        margin-top:60px;
+	        padding-left: 40px; 
+	        position:relative;
+	        left:45px; 	
+	    }
+
+        /*BTN1-TEXTO*/
+	        
+	        section.sessao1 > div.container > div.textosessao1 > div.btn1-texto{
+	            background-color:grey ; 
+	            width:165px;
+	            height:44px;
+	            color:black ;
+	            cursor:pointer;
+	            
+	            text-align:center; 
+	            line-height:44px; 
+	            border-radius:30px; 
+	            font-size:13px;
+	            margin-top:30px; 
+	        }
+
+        /***/
+
+	    section.sessao1 > div.container > div.textosessao1 > h2{
+	        font-weight:300; 
+	        font-size:26px;	
+	    }
+
+	    section.sessao1 > div.container > div.textosessao1 > p{
+	        font-size:15px; 
+	        margin-top:20px;  	
+	    }
+
+	    section.sessao1 > div.container > div.textosessao1 > ul{
+	        list-style-position:outside;
+	        font-size:15px;
+	        padding-left:15px;    	
+	    }
+        
+        section.sessao1 > div.container > div.textosessao1 > ul >li{
+	        float:left;  
+	        width:100%;
+	        margin-top:8px;   	
+	    }
+	/***/
+
+    /*DEVICE-TEXTOSESSAO1*/
+
+		section.sessao1 > div.container > div.device-textosessao1 {
+			float:left;  
+	        width:50%;
+	        height:100%;
+	        position:relative;
+	        top:-30px;
+	        background-image: url('../imagens/device.png');
+	        background-repeat:no-repeat;
+	        background-size: 100% 100% ;     
+		}
+
+	/***/
+
+/***/  
+
+
+/*SESSAO2*/
+    section.sessao2{
+    	
+    	padding-left:2%;
+    	padding-right:2%; 
+    	background-color:white; 
+    	text-align:center; 
+
+    }
+    section.sessao2 h2{
+       color:#472663;
+       font-weight:300;
+
+    }
+
+    /*CONTAINER*/  
+		    section.sessao2 > div.container{
+		        max-width: 1280px;
+		    margin: 0 auto; 
+		    }
+	    /***/
+    section.sessao2 >  div.container > p{
+    	 margin-top:2%;
+    	 margin-bottom:2%;
+       max-width: 700px;  
+       display:inline-block;
+    }
+    section.sessao2 >  div.container > h2{
+       margin-top:7%;
+       margin-bottom:7%;
+       max-width: 700px;  
+       display:inline-block; 
+    }
+
+    section.sessao2 >  div.container > img{
+       width:100%;
+       margin-top:40px; 
+       position:relative;
+       top:85px;
+    }   
+/***/  
+
+/*SESSAO3*/
+    section.sessao3{
+    	
+    	width:100%; 
+    }
+
+    /*PART1*/
+
+	    section.sessao3 > .part1{
+	    	float:left; 
+	        width:50%; 
+	        padding: 160px 0 90px 0;
+	        background-color:#ccc; 
+	        color:black ; 
+	    } 
+
+	    /*WRAPER-PART1*/
+
+		    section.sessao3 > .part1 > .wraper-part1{
+                max-width:800px; 
+                float:right;
+                padding:0 30px;  
+		    }
+
+	    
+
+		    section.sessao3 > .part1 > .wraper-part1 > h2{
+		       font-weight:300;
+		       font-style:italic;
+		       font-size:23px;
+		    }
+
+		    section.sessao3 > .part1 > .wraper-part1 > p{
+		      font-size:15px;
+		      line-height:35px;
+		      margin-top:10px; 
+		    }
+        /***/
+    
+    /***/
+
+    /*PART2*/
+	    section.sessao3 > .part2{
+	    	float:left;
+	    	padding: 80px 0 90px 0;
+	    	padding-top: 150px; 
+	    	padding-bottom:0px; 
+	    	width:50%;
+	    	background-color:white;  
+	    }
+	    /*CONTAINER*/  
+		    section.sessao3 > div.container{
+		        max-width:1000px; 
+		        height:calc(100% + 30px) ;
+		    }
+	    /***/
+	    /*SOBRE-AUTOR*/
+		    section.sessao3 > .part2 > .sobre-autor{  
+		    	float:left;
+		    	max-width:600px; 
+		    	padding-left:30px;  
+		    }
+            
+		    /*TITULO-AUTOR*/
+			    section.sessao3 > .part2 > .sobre-autor > .titulo-autor{
+	               float:left;
+	               width:100%; 
+			    }
+			    /*WRAPER-TITULO-AUTOR*/
+				    section.sessao3 > .part2 > .sobre-autor > .titulo-autor > .wraper-titulo-autor {
+                  
+                       float:left; 
+				    }
+				    section.sessao3 > .part2 > .sobre-autor > .titulo-autor > .wraper-titulo-autor > h2{
+		                color:#232323;
+		                font-weight:400;
+		                padding-right:20px; 
+		                font-size:25px;
+				    }
+				    section.sessao3 > .part2 > .sobre-autor > .titulo-autor > .wraper-titulo-autor > p{
+		                color:#232323;
+		                font-weight:300;
+		                font-style:italic;
+		                font-size:15px;
+				    }
+				    
+			    /***/
+
+			    /*IMG-AUTOR*/
+				    section.sessao3 > .part2 > .sobre-autor >  .titulo-autor > .img-autor{
+				        float:left;
+	                    width:80px;
+	                    height:80px; 
+	                    padding-top:80px; 
+	                    position:relative;
+	                    top:-8px;
+	                    background-color:transparent;
+	                    background-size: 80px 80px; 
+	                    border-radius:40px; 
+	                    background-image: url('../imagens/78640863-2654284984650256-4902248201043574784-n.jpg');  
+				    }
+                /***/
+		    /***/
+
+		    /*TEXTO-AUTOR*/
+			    section.sessao3 > .part2 > .sobre-autor > .texto-autor > p{
+			    	color:#232323;
+			    	font-size:15px;
+			    }
+		    /***/
+
+	    /***/
+
+	    /*SLIDER-BULLETS*/
+		    section.sessao3 > .part2 > .slider-bullets  {
+		    	width:100%;
+		    	float:left;
+		    	margin-top:12px;
+		    	margin-left:30px;  
+		    }
+            section.sessao3 > .part2 > .slider-bullets > span {
+                width:16px;
+                height:16px;
+                border-radius: 8px;
+                margin-right:6px; 
+                background-color:rgb(200,200,200); 
+                float:left; 
+                cursor: pointer;
+            }
+	    /***/
+
+    /***/
+/***/
+
+  
+
+/*SESSAO4*/
+    section.sessao4{
+    	background-color:black ;  
+    	padding:100px 0; 
+    }
+
+    /*CONTAINER*/
+	    section.sessao4 > div.container{
+	        max-width: 1280px;
+		    margin: 0 auto; 
+
+	    }
+     
+        /*FORM*/
+		    section.sessao4 > div.container > div.form{
+		        float:left;
+		        width:50%; 
+		        color:white;
+		    }
+
+		    section.sessao4 > div.container > div.form > form > h2{
+		        
+		        font-size:23px;
+		        font-weight:300; 
+		    }
+
+		    section.sessao4 > div.container > div.form  > form > p{
+		        font-size:15px;
+		        font-weight:300; 
+		        max-width:400px;
+		        padding-right: 10px;  
+		    }
+		    section.sessao4 > div.container > div.form > form{
+		        margin-top: 15px; 
+
+		    }
+		    section.sessao4 > div.container > div.form > form > input[type=text]{
+		        width: 90%;
+		        max-width: 480px;
+		        height: 58px;
+		        padding-left: 8px;
+		        line-height:58px;
+		        border:1px solid rgb(200,200,200);
+		        margin-top:5px;    
+		    }
+		    section.sessao4 > div.container > div.form > form > textarea  {
+		        width: 90%;
+		        max-width: 480px;
+		        padding:15px; 
+		        border:1px solid rgb(200,200,200);
+		        height: 160px;
+		        margin-top:8px;
+		    }
+
+		    section.sessao4 > div.container > div.form > form > div > input[type=submit]{
+                background-color:#FF703D; 
+	            width:165px;
+	            height:44px;
+	            color:white;
+	            cursor:pointer;
+	            
+	            text-align:center; 
+	            line-height:44px; 
+	            border-radius:30px; 
+	            font-size:13px;
+	            margin-top:30px;
+	            border:0;
+		    }
+
+	    /***/
+
+    /***/
+
+/***/
+
+/*WRAPER-MAP*/
+
+	.map-wraper{
+	 	width: 50%;
+	 	float:left; 
+	 	color:white;
+	}
+	
+
+	.map-wraper > h2{
+		font-size: 23px;
+		font-weight: 300; 
+	}
+
+    /*MAP-WRAPER3*/
+	    .map-wraper > .map-wraper3 {
+	    	width: 100%;
+	    	max-width: 480px;
+	    	margin-top:10px; 
+	    	position:relative; 
+	    }
+	        /*MAP-WRAPER2*/
+			    .map-wraper > .map-wraper3 > .map-wraper2{
+				 	position: absolute;
+				 	left:0px;
+				 	top:0px;
+				 	width:100%; 
+				 	padding-top:100%;  
+				}
+				/*MAP*/
+					.map-wraper > .map-wraper3 > .map-wraper2 > .map{
+						left:0px;
+					 	top:0px;
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						background-color: transparent ;
+						background-image: url("../imagens/serial0002saco001kit002pg001-zoom-32x.jpg");
+						background-size:100% 100%; 
+						border: 5px solid black ; 
+				    }
+				/***/
+			/***/
+	    /***/
+	/***/
+
+/***/	
+
+
+
+/*FOOTER*/
+
+	footer{
+         padding:40px 2%;
+         background-color:#192123; 
+         color:white; 
+	}
+	footer p:nth-of-type(1){
+		float:left; 
+		font-size:14px;
+	}
+	footer p:nth-of-type(2){
+		float:right; 
+		font-size:14px;
+	}
+
+/***/
+
+
+
+
+/*MÓVEL*/
+
+	
+
+	
+
+	@media screen and (max-width: 768px){
+
+		/*HEADER*/
+	      
+	        /*HEADER-MOBILE*/  
+				header{
+					width:100%;
+					height:auto;
+					padding:40px 2%; 
+					min-height:90vh;
+					background-size: cover;
+					background-position:center;   
+					background-image:url('../imagens/agenda.jpg'); 
+					font-weight:300; 
+				} 
+		    /***/
+
+	        /*DESKTOP-MENU*/
+
+		        header > div.container > nav.desktop-menu{
+
+		             display:none; 
+
+		        } 
+
+	        /***/
+
+	        /*MOBILE-MENU*/
+
+		        header > div.container > nav.mobile-menu{
+	                 float:right; 
+		             display:block; 
+
+		        } 
+
+	        /***/
+
+
+
+	        
+
+		/***/
+
+	    /*SESSAO1*/
+		    section.sessao1{
+		    	padding: 40px 2%;
+		    	height: auto; 
+		    	text-align:center;  
+		    } 
+	    
+		    /*TEXTOSESSAO1*/
+			    section.sessao1 > div.container > div.textosessao1{
+			    	margin-top:0px;
+			    	position:static ; 
+			        float:none; 
+			        width:100%;
+			        display:inline-block; 
+			        padding-left: 0px; 	
+			    }
+			/***/
+
+			/*DEVICE-TEXTOSESSAO1*/
+
+				section.sessao1 > div.container > div.device-textosessao1 {
+					display:none;     
+				}
+
+			/***/ 
+		    /*BTN1-TEXTO*/
+				section.sessao1 > div.container > div.textosessao1 > div.btn1-texto{
+		            display: inline-block; 
+		        } 
+		    /***/
+
+		    section.sessao1 > div.container > div.textosessao1 > ul >li{
+			    float:none;  
+			    text-align:left;   	
+		    }
+
+		    section.sessao1 > div.container > div.textosessao1 > ul{
+		        display: inline-block;
+		        margin-top:20px;    	
+		    }
+
+		/***/ 
+		/*SESSAO2*/
+		    section.sessao2{
+             padding:40px; 
+		    }
+	    /***/
+
+		    /*CONTAINER*/
+		        section.sessao3 > .part1 {
+		        	    padding: 200px 0 90px 0;
+		        }
+	        /***/
+
+	    /*CONTAINER*/
+	        section.sessao4 > div.container {
+                 text-align:center;  
+	        }
+        /***/
+
+        /*FORM*/
+            section.sessao4 > div.container > div.form {
+            	float:none; 
+                width: 100%;
+                margin-left: 8px;
+		    }
+		    section.sessao4 > div.container > div.form > form{
+                width: 100%;
+		    }
+		    section.sessao4 > div.container > div.form  > form > p{
+		    	display:inline-block;
+		    	float:none;   
+		    }
+	     /***/
+
+	    /*MAP-WRAPPER*/ 
+		    .map-wraper{
+		    	float:none;
+			 	width: 100%;
+			 	padding:0 4%;
+			 	margin-top:20px;  
+		 	}
+		 	.map-wraper > .map-wraper3 {
+		    	width: 80%;
+		    	padding-top:80%; 
+		    	max-width: none;
+		    	margin-top:10px; 
+		    	position:relative; 
+		    	display:inline-block; 
+		    }
+		    .map-wraper > .map-wraper3 > .map-wraper2{
+			 	position: absolute;
+			 	left:0;
+			 	top:0;
+			 	width:100%; 
+			 	height:100%;
+			 	padding-top:0;  
+			}
+	    /***/
+	    /*CHAMADA1*/
+	        header > div.container > div.chamada1{
+	        	float:none;
+	        	margin: 170px 0;
+	        	max-width:none;
+	        	width:100%;    
+	        	text-align:center; 
+	        }
+	        
+	        header > div.container > div.chamada1 >h2{
+	        	font-size:30px;   
+	        	color:white;
+	        	font-weight:300;
+	        	padding:0 10px; 
+	        }
+	        header > div.container > div.chamada1 >p{
+	        	font-size:15px;   
+	        	color:white;
+	        	margin-top:10px ;
+	        	text-align: justify 
+	        }
+		/***/
+
+
+	} 
+    @media screen and (max-width: 580px){
+        /*PART1*/
+             section.sessao3 > .part1{
+             	width:100%;
+
+
+
+                /*personal-edition*/
+	             	/*n-alterar*/
+		             	padding: 150px 200px 90px 0; 
+	             	/***/
+             	/***/ 
+             }
+        /***/ 
+
+        /*PART2*/ 
+             section.sessao3 > .part2{
+             	width:100%;
+
+
+
+
+                /*personal-edition*/
+	             	/*n-alterar*/
+		             	padding:40px 0;
+		             	padding-top:80px;  
+	             	/***/  
+             	/***/ 
+            } 
+            /*IMG-AUTOR*/
+				section.sessao3 > .part2 > .sobre-autor >  .titulo-autor > .img-autor{
+				    top:10px;
+				    
+	                background-color:grey;
+
+                    /*personal-edition*/
+			            /*n-alterar*/
+		             	    margin-top:-40px;  
+		             	/***/ 
+	             	/***/ 
+				}
+            /***/
+        /***/ 
+        
+        /*FOOTER*/
+
+			footer{
+		         text-align:center;  
+			}
+			footer p:nth-of-type(1){
+				float:none;
+			}
+			footer p:nth-of-type(2){
+				float:none;
+				margin-top:8px; 
+			}
+
+		/***/
+
+	}
+	/*personal-edition*/
+		    /*n-alterar*/
+			    @media screen and (max-width: 295px){
+		            /*PART1*/
+			             section.sessao3 > .part1{
+			             	width:100%;
+
+
+
+			                /*personal-edition*/
+				             	/*n-alterar*/
+					             	padding: 120px 0; 
+				             	/***/
+			             	/***/ 
+			             }
+			        /***/
+
+		            /*PART2*/ 
+			            section.sessao3 > .part2{
+			             	width:100%;
+
+
+
+
+			                /*personal-edition*/
+				             	/*n-alterar*/
+					             	padding:40px 0;
+					             	padding-top:120px;  
+				             	/***/  
+			             	/***/ 
+			            } 
+			            /*IMG-AUTOR*/
+							section.sessao3 > .part2 > .sobre-autor >  .titulo-autor > .img-autor{
+							    top:10px;
+							    
+				                background-color:grey;
+
+			                    /*personal-edition*/
+						            /*n-alterar*/
+					             	    margin-top:-160px;  
+					             	/***/ 
+				             	/***/ 
+							}
+			            /***/
+			        /***/
+			    /***/
+			    }
+		    /***/
+	    /***/
+   
+/***/  

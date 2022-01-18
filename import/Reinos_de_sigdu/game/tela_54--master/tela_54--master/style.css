@@ -1,0 +1,135 @@
+ body{
+     position:relative; 
+   }
+   
+   h1{
+     padding-left: 36%;
+     display:block; 
+     margin: 22px 0px;  }
+   
+   .texto01{
+     padding-left: 1%; 
+      padding-right: 1%;
+     text-align: justify;
+     border: 1px solid #000;
+     margin-left:19%;
+   }
+   
+   .texto02{
+    margin-top:16%;
+    margin-right:25%;
+    margin-bottom:45%;
+    margin-left:25%;
+    
+    position:absolute;  
+   }
+   .home{
+     margin-top:2%; 
+     padding: 2%;
+     position:absolute; 
+     top: -5%;
+
+   }
+   .pg3{
+     padding: 2%;    
+     margin-top:2%;
+     position:absolute; 
+     left: 0px;
+   }
+   
+   a:link, a:visited {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #000;
+}
+
+a:hover, a:active {
+  background-color: #e0e0d1;
+  color: #000;
+}
+   
+ .foto{
+   position:absolute;
+   display:block; 
+ }   
+ 
+
+.texto02-mob{display:none;}
+.home-mob{display:none;}
+.h1-mob{display:none;}
+.div-mob{display:none;}
+.texto01-mob{display:none;}
+.pg3-mob{display: none;}
+.foto-mob{display: none;}
+
+@media screen and (max-width: 982px) {
+
+  .texto02{display:none;}
+  .home{display:none;}
+  .h1{display:none;}
+  .div{display:none;}
+  .texto01{display:none;}
+  .pg3{display: none;}
+  .foto {display:none; }
+
+  .texto02-mob{
+    display:block; 
+  }
+
+  .h1-mob{
+    text-align:center; 
+    font-size:80px;
+    display:block;
+    margin-top: 122px; 
+    padding: 0px 0px 0px 0px; 
+  }
+
+  .div-mob{
+     display:block;
+  }
+
+  .texto01-mob{
+    display:block;
+    text-align:justify;
+    margin-top: 140px; 
+  }
+
+ .pg3-mob{
+    font-size:70px;
+    display: block;
+    padding: 27px; 
+    background-color: #000;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #000;
+    margin-top: 25px; 
+    margin-bottom: 25px; 
+    width:100%;
+  }
+
+  .home-mob{
+    font-size:70px;
+    display:block;
+    padding: 27px;  
+    background-color: #000;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #000;
+    margin-top: 200px; 
+    margin-bottom: 25px;
+    width:100%;
+
+  }
+
+  .foto-mob{
+    position:relative ;
+    display:block;
+    top: 40px;
+    margin : 0px 390px; 
+  }
+}

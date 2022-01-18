@@ -1,0 +1,102 @@
+[
+
+	{
+        "nome":"irmãos celceya",
+        "hp":10,
+        "atk":10,
+        "def":300,
+        "file_name":"fusionboss01_01.png",
+        "shop":"fusion boss",
+        "pacote":"irmãos celceya",
+        "drop":["elmo de celceya BRO",
+        	"chifres BRO celceya",
+        	"chifre BRO celceya",
+        	"2 asas celceya BRO",
+        	"pergaminho maré alta SIS",
+        	"pergaminho maré baixa SIS",
+        	"pergaminho attack atroz SIS",
+        	"pedaço de ovo celceya"]
+	},
+
+	{
+        "nome":"elmo de celceya BRO",
+        "atk":8000,
+        "def":4500,
+        "gold":100000,
+        "color":"green",
+        "shop":"arsenal oculto",
+        "pacote":"irmãos celceya",
+        "file_name":"fusionboss01_03.png",
+	},
+
+	{
+        "nome":"chifres BRO celceya",
+        "atk":200,
+        "def":300,
+        "gold":10000,
+        "color":"green",
+        "shop":"arsenal oculto",
+        "pacote":"irmãos celceya",
+        "file_name":"fusionboss01_05.png"
+	},
+
+	{
+        "nome":"chifre BRO celceya",
+        "atk":600,
+        "def":800,
+        "gold":9000,
+        "color":"blue",
+        "shop":"arsenal oculto",
+        "pacote":"irmãos celceya",
+        "file_name":"fusionboss01_08.png"
+	},
+	{
+        "nome":"2 asas celceya BRO",
+        "atk":850,
+        "def":3000,
+        "gold":130000,
+        "color":"red",
+        "shop":"external shop",
+        "pacote":"irmãos celceya",
+        "file_name":"fusionboss01_09.png"
+	},
+	{
+        "nome":"pergaminho maré alta SIS",
+        "atk":7000,
+        "def":-50,
+        "gold":45000,
+        "color":"blue",
+        "shop":"arconte shop",
+        "pacote":"irmãos celceya",
+        "file_name":"fusionboss01_04.png"
+	},
+
+	{
+        "nome":"pergaminho maré baixa SIS",
+        "atk":350,
+        "def":-5,
+        "gold":10000,
+        "color":"blue",
+        "shop":"arconte shop",
+        "pacote":"irmãos celceya",
+        "file_name":"fusionboss01_06.png"
+	},
+	{
+        "nome":"pergaminho attack atroz SIS",
+        "atk":250,
+        "def":400,
+        "gold":1000,
+        "color":"white",
+        "shop":"arconte shop",
+        "pacote":"irmãos celceya",
+        "file_name":"fusionboss01_07.png"
+	},
+    {
+        "nome":"pedaço de ovo celceya",
+        "gold":45000,
+        "color":"white",
+        "shop":"item hunter shop",
+        "pacote":"irmãos celceya",
+        "file_name":"fusionboss01_10.png"
+	}
+]

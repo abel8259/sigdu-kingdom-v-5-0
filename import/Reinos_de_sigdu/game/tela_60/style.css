@@ -1,0 +1,120 @@
+#borda{
+    border: 5px solid black ;
+    height:588px;
+    width:1334px;
+    position:relative; 
+    overflow:scroll;
+}
+
+
+img{
+height:70vh;
+width:28vw;
+padding-left:34.2%;
+padding-top:5%; 
+}
+
+#zoom_in{
+border: 3px solid black ;
+border-radius: 50%;
+background-color:green; 
+position:relative;
+width:20px;
+height:20px;
+}
+
+#zoom_out{
+border: 3px solid black ;
+border-radius: 50%;	
+background-color:red; 
+position:relative;
+width:20px;
+height:20px;
+}
+
+
+#zoom_box_text{
+	border: 3px solid black ;
+	position:relative;
+	width:100px;
+	height:33px;
+}
+
+#zoom_box_buttons{
+	border: 3px solid black ;
+	position:relative;
+	width:100px;
+	height:100px;
+}
+
+#zoom-pax{
+    text-align: center ;
+	vertical-align: center;
+	top:-19.8%;  
+	position:relative; 
+	font-weight:bold;
+
+
+}
+
+#trintax{
+	text-align: center ;
+	vertical-align: center;
+	top:-38%;  
+	position:relative; 
+	font-weight:bold;
+	font-size:40px;
+}
+
+#menos{
+	text-align: center ;
+	vertical-align: center;
+	top:-78%;  
+	position:relative; 
+	font-weight:bold;
+}
+
+#mais{
+	text-align: center; 
+	vertical-align: center;
+	top:-78%;  
+	position:relative;
+	font-weight:bold;
+} 
+
+#inv_box{
+
+    top:-58%;  
+	position:relative;
+
+
+
+}
+
+
+a{
+
+text-decoration: none;
+color: black; 
+
+} 
+
+a.menu:link, a.menu:visited, a.controles:link, a.controles:visited {
+    background-color: #000;
+    border: 1px solid #000;
+    color: white;
+    display: inline-block;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    
+    width:100%;
+    }
+
+   a.menu:hover, a.menu:active , a.controles:hover, a.controles:active  {
+      background-color: #e0e0d1;
+      color: #000;
+    }
+    .links{
+      width:120px;
+    }

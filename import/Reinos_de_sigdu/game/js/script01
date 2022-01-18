@@ -1,0 +1,6 @@
+var 
+
+pushPlanRS(plan){
+	planoUm = plan;  
+}  
+getElementsByClassName("plan0101").innerText=planoUm; 

@@ -1,0 +1,8 @@
+function finalU(){
+localStorage.setItem(localStorage.getItem("char:")+']'+':'+'U~_ATK:', parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_racial_1~_ATK:')) + parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_racial_2~_ATK:')) + parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_levelU~_ATK:')));
+localStorage.setItem(localStorage.getItem("char:")+']'+':'+'U~_DEF:', parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_racial_1~_DEF:')) + parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_racial_2~_DEF:')) + parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_levelU~_DEF:')));
+localStorage.setItem(localStorage.getItem("char:")+']'+':'+'U~_PW:', parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_racial_1~_PW:')) + parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_racial_2~_PW:')) + parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_levelU~_PW:')));
+localStorage.setItem(localStorage.getItem("char:")+']'+':'+'U~_HP:', parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_racial_1~_HP:')) + parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_racial_2~_HP:')) + parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_levelU~_HP:')));
+localStorage.setItem(localStorage.getItem("char:")+']'+':'+'U~_MP:', parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_racial_1~_MP:')) + parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_racial_2~_MP:')) + parseInt(localStorage.getItem(localStorage.getItem("char:")+']'+':'+'MOD_levelU~_MP:')));
+}
+

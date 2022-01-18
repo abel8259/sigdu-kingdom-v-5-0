@@ -1,0 +1,15 @@
+MEDIUM:/relevancia;
+
+LINKEDIN:/relevancia;
+                    
+FACEBOOK:/relevancia;  
+
+YOUTUBE:/relevancia;
+
+TWITTER TAGS:/relevancia;
+
+TWITTER:/relevancia;
+
+INSTAGRAM:/relevancia;                    
+
+COMUNIDADES E FORUNS #1:/relevancia; 

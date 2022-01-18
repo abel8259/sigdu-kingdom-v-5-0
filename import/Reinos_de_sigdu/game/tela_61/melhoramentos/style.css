@@ -1,0 +1,433 @@
+*{
+	margin:0px;
+	padding:0px;  
+}
+
+html, body{
+	height:100%;
+}
+
+.boxT{
+	background: black;  
+	width:100%;
+	height:30px;
+}
+
+.boxT > p{
+box-sizing:border-box;
+color: white;
+text-align: center; 
+font-weight:bold;
+padding-top:0.5%; 
+font-family: 'Bitter', serif;
+
+}
+
+div:nth-of-type(2){
+	margin-top:8%;
+	margin-bottom:3%;
+	
+}
+
+.box1{
+
+margin-top:0.5%;
+
+margin-left: 8%;  
+box-sizing:border-box;
+border: 2px solid black ;
+width:13%;
+height:auto;
+background:white; 
+padding-top:1%;  
+padding-bottom:1%;  
+}
+
+.box1 > p{
+
+text-align: center; 
+font-family: 'Bitter', serif;
+}
+
+.xp{
+
+border:2px solid  black;  
+width:13%;
+top:8%;
+right:21.32%;
+position:absolute;
+}
+
+.lv{
+
+border:2px solid  black;  
+width:13%;
+top:8%;
+right:8.1%;
+position:absolute;
+}
+
+.xp > p, .lv >p{
+font-family: 'Bitter', serif;
+text-align: center; 
+}
+
+.boxE{
+	background: black;  
+	width:100%;
+	top:210%; 
+    height:20px;
+    position:absolute;
+}
+
+/* BOLA ATK SIMPLE */
+.VIEW-CIRCLE0{
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 50px;
+    position:absolute;
+    border:solid black 2px ;
+	top:20%;
+    left:30%;
+}
+
+.name-circle0{
+text-align: center;
+padding-top: 5%;
+color:black;  
+font-family: 'Bitter', serif;
+}
+
+/* BOLA ATK MAX */
+
+.VIEW-CIRCLE1{
+	border-radius: 50%;
+    background-color: white;
+    margin: 50px;
+    position:absolute;
+    border:solid black 2px ;
+	width: 50px;
+    height: 50px;
+    top:30%;
+    left:35%;
+
+}
+
+.name-circle1{
+	font-size:10px;
+	text-align: center;
+	padding-top: 5%;
+	color:black; 
+	font-family: 'Bitter', serif;
+}
+
+/* BOLA DEF SIMPLE */
+
+.VIEW-CIRCLE2{
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 50px;
+    position:absolute;
+    border:solid black 2px ;
+	top:53%;
+    left:30%;
+}
+
+.name-circle2{
+	text-align: center;
+	padding-top: 5%;
+	color:black;
+	font-family: 'Bitter', serif;  
+}
+
+/* BOLA DEF MAX */
+
+.VIEW-CIRCLE3{
+	border-radius: 50%;
+    background-color: white;
+    margin: 50px;
+    position:absolute;
+    border:solid black 2px ;
+	width: 50px;
+    height: 50px;
+    top:63%;
+    left:35%;
+
+}
+
+.name-circle3{
+	font-size:10px;
+	text-align: center;
+	padding-top: 5%;
+	color:black; 
+	font-family: 'Bitter', serif;
+}
+
+/* BOLA PW SIMPLE */
+
+.VIEW-CIRCLE4{
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 50px;
+    position:absolute;
+    border:solid black 2px ;
+	top:37%;
+    left:38.9%;
+}
+
+.name-circle4{
+	text-align: center;
+	padding-top: 5%;
+	color:black;
+	font-family: 'Bitter', serif;  
+}
+
+/* BOLA PW MAX   */
+
+.VIEW-CIRCLE5{
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 50px;
+    position:absolute;
+    border:solid black 2px ;
+	top:47%;
+    left:43.9%;
+}
+
+.name-circle5{
+	font-size:10px;
+	text-align: center;
+	padding-top: 5%;
+	color:black; 
+	font-family: 'Bitter', serif; 
+}
+
+/* BOLA HP SIMPLE */
+
+.VIEW-CIRCLE6{
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 50px;
+    position:absolute;
+    border:solid black 2px ;
+	top:20%;
+    left:48%;
+}
+
+.name-circle6{
+	text-align: center;
+	padding-top: 5%;
+	color:black;
+	font-family: 'Bitter', serif;  
+}
+
+/* BOLA HP MAX   */
+
+.VIEW-CIRCLE7{
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 50px;
+    position:absolute;
+    border:solid black 2px ;
+	top:30%;
+    left:53%;
+}
+
+.name-circle7{
+	font-size:10px;
+	text-align: center;
+	padding-top: 5%;
+	color:black; 
+	font-family: 'Bitter', serif; 
+}
+
+
+/* BOLA MP SIMPLE */
+
+.VIEW-CIRCLE8{
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 50px;
+    position:absolute;
+    border:solid black 2px ;
+	top:53%;
+    left:48%;
+}
+
+.name-circle8{
+	text-align: center;
+	padding-top: 5%;
+	color:black;
+	font-family: 'Bitter', serif;  
+}
+
+/* BOLA MP MAX   */
+
+.VIEW-CIRCLE9{
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 50px;
+    position:absolute;
+    border:solid black 2px ;
+	top:63%;
+    left:53%;
+}
+
+.name-circle9{
+	font-size:10px;
+	text-align: center;
+	padding-top: 5%;
+	color:black; 
+	font-family: 'Bitter', serif; 
+}
+
+
+.bar_energy{
+	border-radius: 50px;
+	border:2px solid black; 
+	position:absolute;
+	top:32%;
+	right:23%;
+	width:10%;
+
+} 
+
+.bar_energy > #esfer ,.bar_energy > #esferas-char{
+	text-align:center; 
+} 
+
+
+
+
+/* importado */
+/*------------*/
+div.caixa_01{
+border: 2px solid #000;
+width: 100%;
+}
+
+div.caixa_02{
+border: 2px solid #000;
+width: 100%;
+}
+
+
+.button {
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.letra2{
+	text-align: center;
+}
+
+.letra3{
+    font-weight: bold;
+}
+
+.letra4{
+    font-size:24px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+ 
+  padding: 10px;
+}
+.grid-item {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto ;
+  grid-gap: 10px;
+  background-color: #000;
+  padding: 10px;
+  margin-top:10%;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+
+}
+
+.item1 {
+  grid-column: 1 / 9;
+}
+
+/*
+.button2 {
+border: double #000 4px;
+  width: 5%;}
+*/
+
+.pagination {
+  display: inline-block;
+  margin-left:39%;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #000;
+}
+
+.pagination a.active {
+  background-color: #000;
+  color: white;
+  border: 1px solid #000;
+}
+
+a.pg1:link, a.pg1:visited {
+  background-color: #000;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #000;
+}
+
+a.pg1:hover, a.pg1:active {
+  background-color: #e0e0d1;
+  color: #000;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;} 

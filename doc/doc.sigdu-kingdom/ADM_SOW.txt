@@ -1,0 +1,13 @@
+SOW STATEMENT OF WORK
+Nome: Reinos de Sigdu
+resultado negociado: 
+quantidade
+descrição dos usos dos dados:
+SIGDU BD
+especificações técnicas: cv
+compartibilidade: public
+padrão de qualidade:
+
+
+previsão de teste:
+                 

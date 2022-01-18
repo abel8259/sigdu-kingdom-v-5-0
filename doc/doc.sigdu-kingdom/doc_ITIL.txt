@@ -1,0 +1,17 @@
+Estrutura ITIL:
+
+Estratégia de serviço:
+#requisitos:
+#necessidades:
+
+Projeto de serviço:
+#service-design:
+
+Transição de serviço:
+#mudanças na  organização:        
+
+Operação de serviço: 
+#SLA:
+
+Melhoria continua:
+#widgets:         
