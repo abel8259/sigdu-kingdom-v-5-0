@@ -14,3 +14,5 @@ Warning:
 
 Conteudo antigo: https://github.com/abel8259/sigdu-kingdom-v-5-0/search?l=hack 
 
+Politicas de privacidade: 
+- 
