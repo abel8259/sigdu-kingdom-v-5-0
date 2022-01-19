@@ -1,4 +1,4 @@
-# sigdu-kingdom:
+# ⚔️ sigdu-kingdom ⚔️
 
 - um jogo visando o desenvolvimento de jogos em php   
 
