@@ -20,27 +20,21 @@ Busca desenvolver os jogos php para um próximo nivel
 ### goals 
 |  issue                |       progress   |  project   |
 | --------------------- | ---------- | ---------- |
-| xp     | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)             |  RS      |
-| gold     | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)             |  RS     |
-| lv | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)            |  RS     |
-| gold | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)           |  RS     |
-| gem | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)           |  RS     |
+| xp     | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)             |  RS      |
+| gold     | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)             |  RS     |
+| lv | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)            |  RS     |
 | --------------------- | ---------- | ---------- |
-| vender    | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)             |  RS      |
-| minerar    | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)             |  RS     |
-| quest | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)            |  RS     |
-| char  | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)           |  RS     |
-| path  | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)           |  RS     |
+| vender    | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)             |  RS      |
+| minerar    | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)             |  RS     |
+| char  | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)           |  RS     |
 
-## SVG project 
+
 
 ### goals 
 |  issue                |       progress   |  project   |
 | --------------------- | ---------- | ---------- |
-| svg     | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)             |  RS      |
-| modelagem   | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)             |  RS     |
-| cópias entregues da base  | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)             |  RS     |
-| total entregue  | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/0)            |  RS     |
+| quest | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)            |  RS     |
+| path  | ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/50)           |  RS     |
 
 ## Resig-engine-v-2-0
 
