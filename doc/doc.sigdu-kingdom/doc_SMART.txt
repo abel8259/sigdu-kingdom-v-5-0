@@ -1,25 +1,28 @@
 Técnica  SMART (aplicar a cada 15 dias)
 
 Seção S:
-WHO: pessoas envolvidas
-WHAT:  o que está a  realizar
-WHEN:  estrutura do tempo
-WHY: razões  e propósitos
-WHERE: identifica o local
+WHO: summer-ia, abel vasconcelosb      
+WHAT:  reinos de sigdu
+WHEN: S4 de março 
+WHY: biblioteca de php para games de  mmo    
+WHERE: rock studios
 
 Seção M:
 //Mensurar prazos 
-(curto:
-(médio:
-(longo:
+(curto: devlog, engine
+(médio: races, about  
+(longo: quests sys, shops, scene.
        
 Seção A:
-+(TODO) -> ("Objetivo desafiador e possivel");
++(TODO) 
+=> engine
+=> itens
+=> scene
 
 Seção R:
-+(DOING) -> ("relevar metas");
++(DOING)
+=> devlogs
 
-Seção T:
-// temporal 
-lei de parkinson: nos adequamosa  prazos.
-+(U) -> ("ADD  painel de prazos com frase acima")                      
+Seção T://temporal  
++(U) 
+=> devlog
