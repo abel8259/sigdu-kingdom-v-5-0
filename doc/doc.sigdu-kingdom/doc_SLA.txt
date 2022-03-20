@@ -1,4 +1,0 @@
-SLA( service level agreement )
-nivel de fono no:
-cliente::::::::::
-serviço::::::::::  
