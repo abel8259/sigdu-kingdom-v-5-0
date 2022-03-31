@@ -1398,3 +1398,24 @@ UPDATE shops   SET inv_id = 12 WHERE inv_nome  ='../img_geral/CAIXAO--1000hp-D.p
 
   UPDATE shops   SET inv_id = 38 WHERE inv_nome  ='../img_geral/LAPIDE-25cm-D.png';
 
+
+CREATE TABLE `quests` (
+  `id` int(11) NOT NULL,
+  `char_quests` varchar(255) NOT NULL,
+  `quests_estado` varchar(255) NOT NULL,
+  `quests_src` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+
+INSERT INTO `quests` (`id`, `char_quests`, `quests_estado`, `quests_src`) VALUES
+(1, 'hiro_nakamura', 'PROCESS', '../../img_geral/quest-um-monstro-habita-I.png');
+
+
+ALTER TABLE `quests`
+  ADD PRIMARY KEY (`id`);
+
+
+ALTER TABLE `quests`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+COMMIT;
