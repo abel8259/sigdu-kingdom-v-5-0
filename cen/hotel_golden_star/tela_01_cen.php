@@ -101,35 +101,42 @@ include('../../login-cadastro/conexao.php');
 		
 
 		
-       <a href="tela_02_cen.php"/> 
+       <a href="tela_11_cen.php"/> 
 		<div class="cen_box" >
-			<p class="text_cen_box" > Falar com zumbis;   </p> 
+			<p class="text_cen_box" > Analisar vidros;   </p> 
 		</div></a> 
+        <a href="tela_02_cen.php"> 
+		    <div class="cen_box" >
+			    <p class="text_cen_box" > falar com os zumbis;   </p> 
+		    </div>		
+        </a>
+		 
+		    <div class="cen_box" >
+			    <p class="text_cen_box" > Ir até a coisa brilhante; <vermelho><b> !!!!!! </b></vermelho>  </p> 
+		    </div>
+	    
 
-		<div class="cen_box" >
-			<p class="text_cen_box" > Verificar escada;   </p> 
-		</div>		
-
-		<div class="cen_box" >
-			<p class="text_cen_box" > Ir até as portas arranhadas;   </p> 
-		</div>
-        <a href="tela_03_cen.php"> 
-		<div class="cen_box" >
-			<p class="text_cen_box" > Ir até a coisa brilhante; <vermelho><b> !!!!!! </b></vermelho>  </p> 
-		</div></a>
+       
         
 		<div class="cen_box" >
-			<p class="text_cen_box"> Ir até as catracas; </p> 
+			<p class="text_cen_box"> Ir até a seçao do elevador; </p> 
 		</div>		
 
 		<div class="cen_box" >
-			<p class="text_cen_box" onclick="xyz(5,21,0);"> Verificar janela a esquerda;   </p> 
+			<p class="text_cen_box" > verificar as escadas;  </p> 
 		</div>
+
+        <a href="tela_04_cen.php"> 
+			<div class="cen_box" >
+				<p class="text_cen_box"> Seguir em frente até as portas vermelhas; </p> 
+			</div>
+	    </a> 
+
         <a href="tela_04_cen.php"> 
 			<div class="cen_box" >
 				<p class="text_cen_box"> Sair do hotel; </p> 
 			</div>
-	   </a> 
+	    </a> 
 
 	</body>
 </html>

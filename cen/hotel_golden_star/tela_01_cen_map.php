@@ -1,3 +1,10 @@
+<?php
+session_start(); 
+include("../../login-cadastro/conexao.php"); 
+$user = $_SESSION['char'];
+
+$dono = $_SESSION['usuario']; ?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -373,14 +380,16 @@
 <div class="card-group">
 
 <?php
-session_start();
-include("../../login-cadastro/conexao.php"); 
-$user = $_SESSION['char'];
 
-$dono = $_SESSION['usuario'];
-$result_usuariosUEST09 = "SELECT * FROM quests  WHERE char_quests = '$user' ";
-$resultado_usuariosUEST09 = pg_query($conexao, $result_usuariosUEST09) ;
-while($row_usuarioUEST09 = pg_fetch_assoc($resultado_usuariosUEST09)){
+
+
+
+
+$stmt2 = $pdo-> prepare( "SELECT * FROM quests  WHERE char_quests = '$dono'");
+$stmt2-> execute();
+$result2 = $stmt2-> fetchAll( PDO::FETCH_ASSOC );
+
+foreach($result2  as  $value2) {
 
 
 
@@ -388,10 +397,9 @@ while($row_usuarioUEST09 = pg_fetch_assoc($resultado_usuariosUEST09)){
 
 echo "<div class='card text-dark bg-light mb-3' style='max-width: 18rem;'>";
 echo "<div class='card-header'>DROP</div>";
-echo "<img  class='img_cen_box0' src=".$row_usuarioUEST09['quests_src']." />";
+echo "<img  class='img_cen_box0' src=".$value2['quests_src']." />";
 echo "<div class='card-body'>";
-echo "<h5 class='card-title'>nome do item</h5>";
-echo "<p class='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>";
+echo "<p class='card-text'>".$value2['quests_estado']."</p>";
 echo "</div>";
 echo "</div>";
 echo "</div>";}

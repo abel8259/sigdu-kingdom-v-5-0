@@ -1,7 +1,7 @@
 <?php 
 session_start();
 include('../../login-cadastro/conexao.php');
- $local = "secretaria do hotel" ; 
+ $local = "falando com zumbis" ; 
  $name_1=$_SESSION["char"]; 
  $sql90=$pdo->prepare("INSERT INTO  localidads  ( localidad_id,  char_localidad  ,  localidad_local  ,  localidads_html  ,  localidads_src  ) VALUES(NULL, '$name_1','$local', '../cen/hotel_golden_star/tela_02_cen.php','../img_geral/LAPIDE-SEMINOVA-D.png')");
  $sql90-> execute();
@@ -86,13 +86,14 @@ include('../../login-cadastro/conexao.php');
 		</div>
 
 		<div class="cen_box_title" >
-			<p class="text_cen_box"> Aos 2 zumbis aparentam fitar o nada. Um está com as mãos no balcão. Fitando a sua frente. O outro uma zumbi q lava sem desgrudar os olhos da porta aberta para o balcão como se os olhos fossem ligados por uma linha  à aquela porta.</p>
+			<p class="text_cen_box"> Os 2 zumbis aparentam fitar o nada. Um está com as mãos no balcão. Fitando a sua frente. O outro uma zumbi q lava sem desgrudar os olhos da porta aberta para o balcão como se os olhos fossem ligados por uma linha à aquela porta. </p>
         </div>
         
         <a href="tela_03_cen.php"> 
-		<div class="cen_box" >
-			<p class="text_cen_box" > Dizer oi ao zumbi no balcao   </p> 
-		</div></a>
+		    <div class="cen_box" >
+			    <p class="text_cen_box" > Dizer oi ao zumbi no balcao   </p> 
+		    </div>
+		</a>
 
         <a href="#"> 
 		<div class="cen_box" >

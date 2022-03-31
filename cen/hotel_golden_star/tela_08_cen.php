@@ -6,10 +6,10 @@ include('../../login-cadastro/conexao.php');
  $sql90=$pdo->prepare("INSERT INTO  localidads  ( localidad_id,  char_localidad  ,  localidad_local  ,  localidads_html  ,  localidads_src  ) VALUES(NULL, '$name_1','$local', '../cen/hotel_golden_star/tela_08_cen.php','../img_geral/LAPIDE-SEMINOVA-D.png')");
  $sql90-> execute();
 
-
+/*
  $querylQUEST = "INSERT INTO  quests (   char_quests ,quests_estado ,quests_src ) VALUES( '$name_1', 'PROCESS','../../img_geral/quest-mumia-escondida.png')";
  pg_query($querylQUEST);
-
+*/
 
  ?>
 <!DOCTYPE html>

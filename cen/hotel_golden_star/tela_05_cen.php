@@ -88,9 +88,10 @@ include('../../login-cadastro/conexao.php');
 		<div class="cen_box_title" >
 			<p class="text_cen_box">  ALbun diz: "As chaves estão na mesa do canto. Eu acho que não devia dito isso.	</div>
         <a href="tela_03_cen.php"> 
-		<div class="cen_box" >
-			<p class="text_cen_box" > menu ALbun   </p> 
-		</div></a>
+		    <div class="cen_box" >
+			    <p class="text_cen_box" > menu ALbun   </p> 
+		    </div>
+	    </a>
         
 
 	</body>

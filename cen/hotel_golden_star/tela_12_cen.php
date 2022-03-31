@@ -1,10 +1,13 @@
 <?php 
 session_start();
 include('../../login-cadastro/conexao.php');
- $local = "falando com zumbi" ; 
+ $local = "saida do hotel" ; 
  $name_1=$_SESSION["char"]; 
- $sql90=$pdo->prepare("INSERT INTO  localidads  ( localidad_id,  char_localidad  ,  localidad_local  ,  localidads_html  ,  localidads_src  ) VALUES(NULL, '$name_1','$local', '../cen/hotel_golden_star/tela_03_cen.php','../img_geral/LAPIDE-SEMINOVA-D.png')");
+ $sql90=$pdo->prepare("INSERT INTO  localidads  ( localidad_id,  char_localidad  ,  localidad_local  ,  localidads_html  ,  localidads_src  ) VALUES(NULL, '$name_1','$local', '../cen/hotel_golden_star/tela_10_cen.php','../img_geral/LAPIDE-SEMINOVA-D.png')");
  $sql90-> execute();
+
+ $sql92=$pdo->prepare("INSERT INTO `quests` (`id`, `char_quests`, `quests_estado`, `quests_src`) VALUES (NULL, '$name_1', 'PROCESS', '../../img_geral/quest-um-monstro-habita-I.png'");
+ $sql92-> execute();
 
 
  ?>
@@ -84,29 +87,17 @@ include('../../login-cadastro/conexao.php');
 			<a class= "voltar" href="tela_01_cen_map.php">Mapa</a>
 			<br>
 		</div>
-
 		<div class="cen_box_title" >
-		<p class="text_cen_box"> MENU ALBUN </p> 
-			<p class="text_cen_box"> O zumbi olha rapidamente pra você e perguntar: no que posso ajudar?</div>
+			<img src="../../img_geral/quest-um-monstro-habita-I.png"/>
+			<p class="text_cen_box"> QUEST00005-014)Houve um incidente mórbido no quarto 228.  </p> 
+		</div>
+        <a href="./tela_03_cen.php"> 
+		<div class="cen_box" >
+			<p class="text_cen_box" > aceitar QUEST.</p> 
+		</div></a>
+        
        
-        <a href="tela_05_cen.php"> 
-		<div class="cen_box" >
-			<p class="text_cen_box" >  Como posso ter acesso as portas de trás?      </p> 
-		</div></a>
-        <a href="tela_06_cen.php"> 
-		<div class="cen_box" >
-			<p class="text_cen_box" >Onde está o porteiro?   </p> 
-		</div></a>
-
-        <a href="tela_12_cen.php"> 
-        <div class="cen_box" >
-			<p class="text_cen_box" >Por que as escadas estão interditadas? </p> 
-		</div></a>
-
-        <a href="tela_02_cen.php"> 
-        <div class="cen_box" >
-			<p class="text_cen_box" >Voltar ao balcão </p> 
-		</div></a>
-        </a>
+        
+	</body>
 	</body>
 </html>
